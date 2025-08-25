@@ -1,5 +1,5 @@
 name: flutter_haversine_geolocation
-description: "A new Flutter package project."
+description: A Flutter/Dart package to manage geolocation history with Haversine distance filtering.
 version: 1.0.0
 homepage: https://github.com/rodolphe37/flutter-haversine-geolocation
 repository: https://github.com/rodolphe37/flutter-haversine-geolocation
