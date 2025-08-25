@@ -1,7 +1,8 @@
 name: flutter_haversine_geolocation
 description: "A new Flutter package project."
 version: 0.0.1
-homepage:
+homepage: https://github.com/rodolphe37/flutter-haversine-geolocation
+repository: https://github.com/rodolphe37/flutter-haversine-geolocation
 
 environment:
   sdk: ^3.9.0
