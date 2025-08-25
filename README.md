@@ -25,7 +25,7 @@ Add this dependency in your pubspec.yaml:
 
 ```yaml
 dependencies:
-  flutter_haversine_geolocation: ^0.0.1
+  flutter_haversine_geolocation: ^1.0.1
 ```
 
 Then run:
