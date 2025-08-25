@@ -25,7 +25,7 @@ Add this dependency in your pubspec.yaml:
 
 ```yaml
 dependencies:
-  flutter_haversine_geolocation: ^1.0.1
+  flutter_haversine_geolocation: ^1.0.2
 ```
 
 Then run:
@@ -183,21 +183,21 @@ class _MyAppState extends State<MyApp> {
 
 #### Options
 
-- distanceThreshold (int, optional) → Threshold in meters to consider two positions the same (default: 100)
+- `distanceThreshold (int, optional)` → Threshold in meters to consider two positions the same (default: 100)
 
-- loadHistory: Future<TLocationHistory?> Function() → Function to load the geolocation history
+- `loadHistory: Future<TLocationHistory?> Function()` → Function to load the geolocation history
 
-- saveHistory: Future<void> Function(TLocationHistory) → Function to save the history
+- `saveHistory: Future<void> Function(TLocationHistory)` → Function to save the history
 
 #### Methods
 
-- Future<void> init() → Initialize and load history
+- `Future<void> init()` → Initialize and load history
 
-- Future<void> addLocation(TLocation location) → Add a new position (filters out duplicates using Haversine distance)
+- `Future<void> addLocation(TLocation location)` → Add a new position (filters out duplicates using Haversine distance)
 
 #### Properties
 
-- history: TLocationHistory → List of stored positions
+- `history: TLocationHistory` → List of stored positions
 
 ---
 
